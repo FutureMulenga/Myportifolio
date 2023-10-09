@@ -42,10 +42,14 @@ const about = () =>{
                         </article>
                   </div>
 
-                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                        Eveniet soluta et eos repellat molestias suscipit facere ut, 
-                        ipsum doloribus tempora temporibus quibusdam harum 
-                       dignissimos quos ex numquam recusandae tempore cumque.
+                   <p>
+                        My name is Future Mulenga i'am a Fullstack developer, studying Bachelors of degree in 
+                        computer science at Copperbelt University. I have experience in several programing
+                        languages such as c++,java, python, php, c# and javascript, though am proficient in java and javascript.
+                        So far i have worked with some notable frameworks such as FLASK, FASTAPI, REACT, JAVAFx,
+                        BOOSTRAP, NETBEANS as well as python libraries such as numpy, pandas, and ktinter modules
+                        to train machine learning models. I aim to continue growing in my professional career by 
+                        exposing myself to new trends of technologies.
                   </p>
 
                   <a href="#contact" className='btn btn-primary'>Let's Talk</a>
