@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Myportifolio/portfolio/static/css/main.b8668aed.css",
+    "main.js": "/Myportifolio/portfolio/static/js/main.ce5c931d.js",
+    "static/media/mypic-removebg.png": "/Myportifolio/portfolio/static/media/mypic-removebg.1f70e730017dbdd69482.png",
+    "static/media/photo.png": "/Myportifolio/portfolio/static/media/photo.06d12504f029d56d9081.png",
+    "static/media/profile.jpg": "/Myportifolio/portfolio/static/media/profile.6e08e55838c5f85d2a10.jpg",
+    "static/media/pexels-photo-177598.jpeg": "/Myportifolio/portfolio/static/media/pexels-photo-177598.662e919f95089c3a59d4.jpeg",
+    "static/media/Logo.png": "/Myportifolio/portfolio/static/media/Logo.8b087f2ff9a9fb278c2c.png",
+    "static/media/CV.pdf": "/Myportifolio/portfolio/static/media/CV.01f437e111ec9b36423e.pdf",
+    "static/media/istockphoto-1321462048-612x612.jpg": "/Myportifolio/portfolio/static/media/istockphoto-1321462048-612x612.a0bcdc7294756f620460.jpg",
+    "static/media/pexels-photo-6235053.jpeg": "/Myportifolio/portfolio/static/media/pexels-photo-6235053.1452fd44f415346802a2.jpeg",
+    "static/media/pexels-photo-546819.jpeg": "/Myportifolio/portfolio/static/media/pexels-photo-546819.74979c675ff1878ed156.jpeg",
+    "index.html": "/Myportifolio/portfolio/index.html",
+    "main.b8668aed.css.map": "/Myportifolio/portfolio/static/css/main.b8668aed.css.map",
+    "main.ce5c931d.js.map": "/Myportifolio/portfolio/static/js/main.ce5c931d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8668aed.css",
+    "static/js/main.ce5c931d.js"
+  ]
+}
