@@ -47,7 +47,7 @@ const about = () =>{
                         computer science at Copperbelt University. I have experience in several programing
                         languages such as c++,java, python, php, c# and javascript, though am proficient in java and javascript.
                         So far i have worked with some notable frameworks such as FLASK, FASTAPI, REACT, JAVAFx,
-                        BOOSTRAP, NETBEANS as well as python libraries such as numpy, pandas, and ktinter modules
+                        BOOSTRAP, NETBEANS as well as python libraries such as numpy, pandas, and TKinter modules
                         to train machine learning models. I aim to continue growing in my professional career by 
                         exposing myself to new trends of technologies.
                   </p>

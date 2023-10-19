@@ -45,7 +45,7 @@ const Testimonial = () =>{
        <h5>Review from clients</h5>
        <h2>Testimonial</h2>
 
-       <Swiper className="container testimonial_container"
+     <Swiper className="container testimonial_container"
        // install Swiper modules
       modules={[Pagination]}
       spaceBetween={30}
@@ -56,7 +56,7 @@ const Testimonial = () =>{
            data.map(({id, name, image, review}) =>{
 
                return(
-                    <SwiperSlide key={id} className='testimonial'>
+               <SwiperSlide key={id} className='testimonial'>
                     <div className='client_image'>
                          <img src={image} alt={name} />               
                     </div>
@@ -64,7 +64,7 @@ const Testimonial = () =>{
                     <small className='client_review'>
                     {review}
                     </small>
-                    </SwiperSlide>
+               </SwiperSlide>
                )
            })
           }
