@@ -1,6 +1,7 @@
 import React from 'react'
 import "./about.css"
 import ME from '../../assets/photo.png'
+import G12 from './Grade 12.pdf'
 import {FaAward} from 'react-icons/fa'
 import {FaUsers} from 'react-icons/fa'
 import {FaFolderOpen} from 'react-icons/fa'
@@ -14,7 +15,7 @@ const about = () =>{
               <h5>to know</h5>
               <h2>About Me</h2>
 
-              <div className="container about_container">
+            <div className="container about_container">
                   <div className="about_me">
                         <div className="about_me-image">
                               <img src={ME} alt="about_me" />
@@ -22,6 +23,7 @@ const about = () =>{
                   </div>
 
             <div className="about_content">
+
                   <div className="about_cards">
                         <article className="about_card">
                               <FaAward className='icon'/>
@@ -42,19 +44,20 @@ const about = () =>{
                         </article>
                   </div>
 
-                   <p className=''>
-                        My name is Future Mulenga i'am a Fullstack developer, studying Bachelors of degree in 
-                        computer science at Copperbelt University. I have experience in several programing
-                        languages such as c++,java, python, php, c# and javascript. As a developer, am always 
-                        excited to jump on different projects as it helps me to learn different technologies. 
-                        I also own a small business for printing and accessories, where i spend my spare time if 
-                        am not programing.
+                  <p>
+                        My name is Future Mulenga. I am a Fullstack developer, studying for a Bachelor's degree in
+                        computer science at Copperbelt University. I have experience in several programming
+                        languages such as C++, Java, Python, PHP, C#, and JavaScript. As a developer, I am always
+                        excited to jump on different projects as it helps me learn different technologies.
+                        I also own a small business for printing and accessories, where I spend my spare time if
+                        I am not programming.
                   </p>
 
-                  <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+                  <a href={G12} target='_blank' rel='noreferrer' className='btn'>View Grade 12 certificate</a>
+                    
             </div>
-              </div>
-             </section> 
-       );
+            </div>
+       </section> 
+    );
 }
 export default about;
