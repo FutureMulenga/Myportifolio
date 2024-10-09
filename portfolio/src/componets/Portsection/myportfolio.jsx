@@ -1,4 +1,4 @@
-import pic1 from '../../assets/mypic-removebg.png'
+import project from '../../assets/project.png'
 import pic2 from '../../assets/pexels-photo-177598.jpeg'
 import pic3 from '../../assets/pexels-photo-546819.jpeg'
 import pic4 from '../../assets/Logo.png'
@@ -12,9 +12,9 @@ import './myportifolio.css'
 const data =[
   {
     id: 1,
-    image: pic1,
-    title: 'my picture',
-    github: 'https//github.com'
+    image: project,
+    title: 'Zed Lingo',
+    github: 'https://github.com/FutureMulenga/Language_APP.git'
   },
   {
     id: 2,

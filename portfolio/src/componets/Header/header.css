@@ -10,6 +10,7 @@ header{
       text-align: center;
       height: 100%;
       position: relative;
+      
 }
 
 /*================CTA===========*/
@@ -20,6 +21,34 @@ header{
       gap: 1.2rem;
       justify-content: center;
 }
+
+@keyframes typing{
+     from{width: 0;}
+     to{width: 100%;}
+
+ }
+
+@keyframes blink {
+    50% { opacity: 0; }
+  }
+  
+.typing-header {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 6s steps(50, end) infinite;
+    position: relative;
+  }
+  
+  .typing-header::after{
+    content: "•";
+    font-size: 1.5rem; 
+    position: absolute;
+    right: -10px; 
+    animation: blink 1s step-end infinite; 
+  }
+  
+
 /*=============SOCIALS==============*/
 
 .socials{
@@ -47,7 +76,7 @@ header{
 .me{
 
     width: 15rem;
-    aspect-ratio: 1/1;
+    aspect-ratio: 3/3;
     overflow: hidden;
     position: absolute;
     left: calc(50% - 8rem);
@@ -55,17 +84,6 @@ header{
     border-radius: 50%;
     margin: 2rem auto 1rem;
     border: 0.4rem solid var(--color-primary-variant);
-
-     /*background: linear-gradient(var(--color-primary),transparent);
-     width: 18rem;
-     height: 30rem;
-     position: absolute;
-     left: calc(50% - 9rem);
-     margin-top: 4rem;
-     border-radius: 50%;
-     overflow: hidden;
-     padding: 5rem 1.5rem 1.5rem 1.5rem;*/
-    
 
 }
 

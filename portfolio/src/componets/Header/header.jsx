@@ -1,7 +1,7 @@
-import React from 'react'
-import "./header.css"
+import React from 'react';
+import "./header.css";
 import CTA from './CTA';
-import  ME from '../../assets/photo.png'
+import Future from '../../assets/Future.jpg';
 import HeaderSocials from './headersocials';
 
 const Header = () =>{
@@ -10,13 +10,13 @@ const Header = () =>{
       <header>
             <div className="container header_container">
                   <h5>Hello! i'am</h5>
-                  <h1>Future Mulenga</h1>
+                  <h1 className='typing-header h1-header'>Future Mulenga</h1>
                   <h5 className="text-light">Fullstack Developer</h5> 
                    <CTA/>
                    <HeaderSocials/>
                    
                    <div className='me'>
-                         <img src={ME} alt="logo"/>
+                         <img src={Future} alt="profile"/>
                   </div>
 
                    <a href="#contact" className='scroll_down'>Scroll Down</a>
